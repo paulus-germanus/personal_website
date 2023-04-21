@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1 {
+    font-size: 90px;
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', cursive;
+}
+
+h3 {
+    font-family: 'Montserrat', cursive;
+}
+
+h4 {
+    font-family: 'Montserrat', cursive;
+}
+
+h5 {
+    font-family: 'Montserrat', cursive;
+}
+
+h6 {
+    font-family: 'Montserrat', cursive;
+}
+
+h7 {
+    font-family: 'Montserrat', cursive;
+}
+
+p {
+    font-family: 'Montserrat', cursive;
+}
+
+.top {
+    margin: auto;
+    background-color: #ECF9FF;
+    padding: 20px;
+    border: solid;
+    height: 280px;
+    color: #071A52;
+    position: relative;
+    top: 10px;
+}
+
+.middle {
+    margin: auto;
+    background-color: #FFFBEB;
+    padding: 20px;
+    border: solid;
+    min-height: 270px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+}
+
+.bottom {
+    margin: auto;
+    background-color: #FFE7CC;
+    padding: 20px;
+    border: solid;
+    height: 200px;
+    position: relative;
+    top: 30px;
+}
+
+.bottom2 {
+    margin: auto;
+    background-color: #F8CBA6;
+    padding: 20px;
+    border: solid;
+    height: 200px;
+    position: relative;
+    top: 40px;
+}
+
+.cloud1-img {
+    position: relative;
+    left: 240px;
+    top: 20px;
+}
+
+.cloud2-img {
+    position: relative;
+    right: 180px;
+    top: -70px;
+}
+
+.mountain1-img {
+    position: relative;
+    top: -138px;
+    left: 170px;
+}
+
+.mountain2-img {
+    position: relative;
+    top: -30px;
+}
+
+.social-media {
+    width: 60px;
+    height: auto;
+}
