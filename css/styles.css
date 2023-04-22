@@ -11,31 +11,7 @@ h1 {
     font-family: 'Sacramento', cursive;
 }
 
-h2 {
-    font-family: 'Montserrat', cursive;
-}
-
-h3 {
-    font-family: 'Montserrat', cursive;
-}
-
-h4 {
-    font-family: 'Montserrat', cursive;
-}
-
-h5 {
-    font-family: 'Montserrat', cursive;
-}
-
-h6 {
-    font-family: 'Montserrat', cursive;
-}
-
-h7 {
-    font-family: 'Montserrat', cursive;
-}
-
-p {
+h2, h3,h4, h5, h6, h7, p {
     font-family: 'Montserrat', cursive;
 }
 
@@ -48,6 +24,8 @@ p {
     color: #071A52;
     position: relative;
     top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .middle {
@@ -59,16 +37,38 @@ p {
     overflow: hidden;
     position: relative;
     top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-.bottom {
+.container {
     margin: auto;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.first, .second, .third, .fourth {
+    flex-grow: 1;
+    display: inline-block;
     background-color: #FFE7CC;
     padding: 20px;
     border: solid;
     height: 200px;
-    position: relative;
-    top: 30px;
+}
+
+.first {
+    margin-right: 10px;
+}
+
+.third {
+    margin-left: 10px;
+}
+
+.fourth {
+    margin-left: 10px;
 }
 
 .bottom2 {
@@ -79,6 +79,8 @@ p {
     height: 200px;
     position: relative;
     top: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .cloud1-img {
