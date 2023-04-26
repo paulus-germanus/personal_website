@@ -422,6 +422,7 @@
     <div class="fourth">
         <h3><strong>Hobbies:</strong></h3>
         <h4>• German and English literature</h4>
+        <h4>• Python (programming language)</h4>
         <h4>• Making/DYI</h4>
         <h4>• Unicycling/cycling</h4>
         <h4>• Climbing</h4>
@@ -445,6 +446,18 @@
     <br>
     <img class="mountain2-img" src="images/mountain.png" alt="mountain-img">
 </div>
+
+<script>
+  $(document).ready(function() {
+    var hash = window.location.hash;
+    if (hash === '#professionalModal6') {
+      setTimeout(function() {
+        $('#professionalModal6').modal('show');
+      }, 1000);
+    }
+  });
+</script>
+
 
 </body>
 </html>
