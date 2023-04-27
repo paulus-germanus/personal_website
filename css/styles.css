@@ -58,6 +58,7 @@ h2, h3,h4, h5, h6, h7, p {
     padding: 10px 10px 20px 10px;
     border: solid;
     max-width: 29%;
+    min-width: 20%;
 }
 
 .first {
