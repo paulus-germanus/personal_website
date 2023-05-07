@@ -30,7 +30,7 @@ h2, h3,h4, h5, h6, h7, p {
 .middle {
     margin: auto;
     background-color: #FFFBEB;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     border: solid;
     min-height: 270px;
     overflow: auto;
@@ -78,7 +78,7 @@ h2, h3,h4, h5, h6, h7, p {
     background-color: #F8CBA6;
     padding: 20px;
     border: solid;
-    height: 200px;
+    height: 184px;
     position: relative;
     top: 40px;
     margin-right: 15px;
